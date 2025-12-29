@@ -1,0 +1,456 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Open Source & GitHub Marketing | Developer Marketing Guides</title>
+    <meta name="description" content="A comprehensive guide to growing open source projects and leveraging GitHub for marketing. From first stars to sustainable growth.">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav class="nav">
+        <div class="nav-container">
+            <a href="index.html" class="nav-logo">
+                <span class="nav-logo-icon">📚</span>
+                <span class="nav-logo-text">Dev Marketing Guides</span>
+            </a>
+            <div class="nav-links">
+                <a href="index.html#guides" class="nav-link">All Guides</a>
+                <a href="https://newslepear.beehiiv.com/" target="_blank" rel="noopener" class="nav-link">Newsletter</a>
+                <a href="https://github.com/sderosiaux/developer-marketing-guides" target="_blank" rel="noopener" class="nav-link nav-link-github">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                        <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/>
+                    </svg>
+                </a>
+            </div>
+        </div>
+    </nav>
+
+    <header class="guide-header">
+        <div class="guide-header-container">
+            <nav class="guide-header-nav">
+                <a href="index.html">← Back to all guides</a>
+            </nav>
+            <div class="guide-header-number">Guide 10</div>
+            <h1 class="guide-header-title">Open Source & GitHub Marketing</h1>
+            <p class="guide-header-description">A comprehensive guide to growing open source projects and leveraging GitHub for marketing. From first stars to sustainable growth.</p>
+        </div>
+    </header>
+
+    <main class="guide-content">
+        <nav class="guide-toc">
+            <div class="guide-toc-title">In This Guide</div>
+            <ul class="guide-toc-list">
+                <li><a href="#why-oss"><span class="toc-number">01</span> Why Open Source Matters</a></li>
+                <li><a href="#first-1000"><span class="toc-number">02</span> Getting Your First 1000 Stars</a></li>
+                <li><a href="#growth-loop"><span class="toc-number">03</span> The GitHub PR Growth Loop</a></li>
+                <li><a href="#search-optimization"><span class="toc-number">04</span> GitHub Search Optimization</a></li>
+                <li><a href="#readme"><span class="toc-number">05</span> README Strategy</a></li>
+                <li><a href="#growing-traction"><span class="toc-number">06</span> Growing Traction</a></li>
+                <li><a href="#community"><span class="toc-number">07</span> Community and Contributors</a></li>
+                <li><a href="#monetization"><span class="toc-number">08</span> Open Source Monetization</a></li>
+                <li><a href="#measuring"><span class="toc-number">09</span> Measuring Open Source Success</a></li>
+                <li><a href="#github-features"><span class="toc-number">10</span> GitHub Features for Marketing</a></li>
+            </ul>
+        </nav>
+
+        <article class="guide-article">
+            <section id="why-oss">
+                <h2>Part 1: Why Open Source Matters</h2>
+
+                <h3>Open Source as Differentiator</h3>
+                <blockquote>
+                    <p>"If a developer can pick software that is also open source, it's just better."<br>— James Hawkins, PostHog</p>
+                </blockquote>
+
+                <p><strong>Why developers prefer OSS:</strong></p>
+                <ul>
+                    <li>Code is inspectable</li>
+                    <li>Can verify claims</li>
+                    <li>Can contribute/customize</li>
+                    <li>No vendor lock-in fears</li>
+                    <li>Community validation</li>
+                </ul>
+
+                <h3>Open Source GTM</h3>
+                <p><strong>The master plan pattern (from Resend):</strong></p>
+                <ol>
+                    <li>Launch open-source project around [domain]</li>
+                    <li>Establish yourselves as experts around [domain]</li>
+                    <li>Launch SaaS around [domain]</li>
+                </ol>
+            </section>
+
+            <section id="first-1000">
+                <h2>Part 2: Getting Your First 1000 Stars</h2>
+
+                <img src="guides/images/10-first-1000-stars-roadmap.png" alt="First 1000 Stars Roadmap" class="guide-image">
+
+                <h3>Prerequisites: Repo Health</h3>
+                <p>Before marketing, ensure:</p>
+                <ul>
+                    <li><strong>Clear description</strong> of what your tool does</li>
+                    <li><strong>Well-structured README:</strong> What you do, code snippets, UI gifs</li>
+                    <li><strong>Docs site</strong> you want to send people to</li>
+                </ul>
+
+                <h3>The First 100 Stars: Artificial Growth</h3>
+                <p>Kick-off sources:</p>
+                <ul>
+                    <li>Friends and family message</li>
+                    <li>Neighbors in shared office space</li>
+                    <li>Show it off (free) at conferences</li>
+                    <li>First launch announcements on social</li>
+                </ul>
+
+                <h3>Beyond 100: Organic Growth</h3>
+                <p><strong>Content creation:</strong></p>
+                <ul>
+                    <li>Present the tool directly and indirectly</li>
+                    <li>Listicles ("10 tools for X")</li>
+                    <li>Tutorials using your tool</li>
+                </ul>
+
+                <p><strong>Content distribution:</strong></p>
+                <ul>
+                    <li>Syndication (Medium, Dev.to)</li>
+                    <li>Reddit and socials</li>
+                    <li>Your own blog (SEO)</li>
+                </ul>
+
+                <p><strong>GitHub lists:</strong></p>
+                <ul>
+                    <li>PR to get on every relevant list</li>
+                    <li>awesome-* lists</li>
+                    <li>curated collections</li>
+                </ul>
+
+                <p><strong>Communities and dark social:</strong></p>
+                <ul>
+                    <li>Slack, Discord, Reddit</li>
+                    <li>WhatsApp groups</li>
+                    <li>LinkedIn and Facebook groups</li>
+                </ul>
+
+                <p><strong>Paid campaigns:</strong></p>
+                <ul>
+                    <li>Ethical Ads</li>
+                    <li>Reddit (subreddits)</li>
+                    <li>Twitter (keywords)</li>
+                </ul>
+
+                <p><strong>Influencers:</strong></p>
+                <ul>
+                    <li>List relevant influencers</li>
+                    <li>Find collaborative opportunities</li>
+                    <li>Reach out directly</li>
+                </ul>
+            </section>
+
+            <section id="growth-loop">
+                <h2>Part 3: The GitHub PR Growth Loop</h2>
+
+                <img src="guides/images/10-github-growth-loop.png" alt="GitHub Growth Loop" class="guide-image">
+
+                <h3>How It Works (Snyk Example)</h3>
+                <ol>
+                    <li>New user signs up for Snyk</li>
+                    <li>They connect their GitHub account</li>
+                    <li>Snyk finds vulnerabilities in their repos</li>
+                    <li>Snyk-bot creates branded PR to fix them</li>
+                    <li>Other devs in org see and interact with PR</li>
+                    <li>Some follow links to check out Snyk</li>
+                    <li>Some sign up for Snyk</li>
+                </ol>
+
+                <p><strong>Why it's powerful:</strong></p>
+                <ul>
+                    <li>Uses existing developer workflow</li>
+                    <li>Visible to entire team</li>
+                    <li>Natural, not intrusive</li>
+                    <li>Creates internal awareness</li>
+                </ul>
+
+                <h3>Designing Growth Loops</h3>
+                <p><strong>Key elements:</strong></p>
+                <ul>
+                    <li>Triggered by natural user behavior</li>
+                    <li>Visible to other potential users</li>
+                    <li>Provides value (not just exposure)</li>
+                    <li>Easy to act on</li>
+                </ul>
+            </section>
+
+            <section id="search-optimization">
+                <h2>Part 4: GitHub Search Optimization</h2>
+
+                <h3>How GitHub Search Works</h3>
+                <p>Ranking factors:</p>
+                <ul>
+                    <li><strong>About section:</strong> Keywords matter, but so does keyword density</li>
+                    <li><strong>Topics:</strong> Extend search term coverage</li>
+                    <li><strong>Stars:</strong> Social proof signal</li>
+                    <li><strong>Activity:</strong> Recent commits matter</li>
+                </ul>
+
+                <h3>Optimization Tactics</h3>
+                <p><strong>About section:</strong></p>
+                <ul>
+                    <li>Put keywords in About</li>
+                    <li>Keep it as short as possible</li>
+                    <li>% of keywords to all terms matters</li>
+                </ul>
+
+                <p><strong>Topics:</strong></p>
+                <ul>
+                    <li>Use one-word topics</li>
+                    <li>Extend what you used in About</li>
+                    <li>Cover more search terms</li>
+                </ul>
+            </section>
+
+            <section id="readme">
+                <h2>Part 5: README Strategy</h2>
+
+                <h3>README Structure</h3>
+                <p><strong>For open source project launch (from Resend):</strong></p>
+                <p>Spend 1 week on the library, 3 weeks on website and README.</p>
+
+                <p><strong>Key sections:</strong></p>
+                <ol>
+                    <li>What it is (one sentence)</li>
+                    <li>Why it exists (problem it solves)</li>
+                    <li>Quick start (copy-paste code)</li>
+                    <li>Features (visual if possible)</li>
+                    <li>Installation</li>
+                    <li>Usage examples</li>
+                    <li>Documentation link</li>
+                    <li>Contributing guide</li>
+                    <li>License</li>
+                </ol>
+
+                <h3>Making README Visual</h3>
+                <ul>
+                    <li>GIFs showing tool in action</li>
+                    <li>Screenshots of UI</li>
+                    <li>Architecture diagrams</li>
+                    <li>Badges (build status, stars, etc.)</li>
+                </ul>
+
+                <h3>Copy-Paste is King</h3>
+                <blockquote>
+                    <p>"As a developer, I want to get it up and running now. What can I copy-paste and get started as quickly as possible?"</p>
+                </blockquote>
+                <p>Make installation and first use trivially easy.</p>
+            </section>
+
+            <section id="growing-traction">
+                <h2>Part 6: Growing Traction</h2>
+
+                <h3>Launch Tips (from Resend)</h3>
+                <p><strong>Goal to communicate:</strong> "I get the use case, I get how to inject it to my project, and scale as the project/usage grows"</p>
+
+                <p><strong>Information flow priorities:</strong></p>
+                <ul>
+                    <li>Readme sections</li>
+                    <li>How easy it is to get started</li>
+                    <li>How to ask for help</li>
+                    <li>What code to copy-paste</li>
+                </ul>
+
+                <h3>Continuous Growth Tactics</h3>
+                <p><strong>Retargeting experiment:</strong> Reach out to stargazers of similar repos. Just ask them to try yours.</p>
+                <p><strong>Celebrate milestones:</strong> Share milestones publicly. More people join a moving train.</p>
+                <p><strong>Shamelessly promote others:</strong> Promote related projects (and yours with it).</p>
+                <p><strong>Use case testimonials:</strong> Reach out to bloggers in your space. See if they'd try your tool and write about it.</p>
+            </section>
+
+            <section id="community">
+                <h2>Part 7: Community and Contributors</h2>
+
+                <h3>Building Contributor Community</h3>
+                <p><strong>Make contributing easy:</strong></p>
+                <ul>
+                    <li>Good first issues labeled</li>
+                    <li>Contributing guide clear</li>
+                    <li>Fast PR reviews</li>
+                    <li>Welcoming to newcomers</li>
+                </ul>
+
+                <h3>Maintaining Momentum</h3>
+                <p><strong>Regular updates:</strong></p>
+                <ul>
+                    <li>Changelog visible</li>
+                    <li>Release announcements</li>
+                    <li>Roadmap public</li>
+                </ul>
+                <p><strong>Community engagement:</strong></p>
+                <ul>
+                    <li>Respond to issues</li>
+                    <li>Thank contributors</li>
+                    <li>Feature community projects</li>
+                </ul>
+            </section>
+
+            <section id="monetization">
+                <h2>Part 8: Open Source Monetization</h2>
+
+                <h3>Models That Work</h3>
+                <ol>
+                    <li><strong>Open core:</strong> Core open source, enterprise features paid</li>
+                    <li><strong>Cloud hosting:</strong> Self-host free, managed cloud paid</li>
+                    <li><strong>Support:</strong> Open source free, paid support</li>
+                    <li><strong>Dual license:</strong> Open source for OSS, commercial for commercial</li>
+                </ol>
+
+                <h3>Positioning Open Core</h3>
+                <p>From Retool's clarity:</p>
+                <ul>
+                    <li>"Cloud (we host)"</li>
+                    <li>"Self-hosted (you host)"</li>
+                </ul>
+                <p>Make the difference crystal clear.</p>
+
+                <h3>Self-Hosted in Navigation</h3>
+                <p><strong>n8n tactic:</strong> Put self-hosted deployment guidance in docs tab dropdown.</p>
+                <p>This frontloads a key differentiator where developers look.</p>
+            </section>
+
+            <section id="measuring">
+                <h2>Part 9: Measuring Open Source Success</h2>
+
+                <h3>Vanity vs Valuable Metrics</h3>
+                <p><strong>Vanity (but still useful):</strong></p>
+                <ul>
+                    <li>Star count</li>
+                    <li>Fork count</li>
+                    <li>Contributor count</li>
+                </ul>
+                <p><strong>Valuable:</strong></p>
+                <ul>
+                    <li>Active users</li>
+                    <li>Issues resolved</li>
+                    <li>Community contributions</li>
+                    <li>Conversion to paid</li>
+                </ul>
+
+                <h3>Star vs Usage</h3>
+                <p>Stars don't equal usage. Track:</p>
+                <ul>
+                    <li>Downloads</li>
+                    <li>Active installations</li>
+                    <li>API calls (if applicable)</li>
+                    <li>Community activity</li>
+                </ul>
+            </section>
+
+            <section id="github-features">
+                <h2>Part 10: GitHub Features for Marketing</h2>
+
+                <h3>Sponsors</h3>
+                <ul>
+                    <li>Enable GitHub Sponsors</li>
+                    <li>Visible social proof</li>
+                    <li>Revenue source</li>
+                </ul>
+
+                <h3>Discussions</h3>
+                <ul>
+                    <li>Community Q&A</li>
+                    <li>Feature requests</li>
+                    <li>Show me what you built</li>
+                </ul>
+
+                <h3>Pages</h3>
+                <ul>
+                    <li>Host documentation</li>
+                    <li>Landing pages</li>
+                    <li>Showcase sites</li>
+                </ul>
+
+                <h3>Actions</h3>
+                <ul>
+                    <li>Demonstrate your tool</li>
+                    <li>Template workflows</li>
+                    <li>Integration examples</li>
+                </ul>
+            </section>
+
+            <section class="checklist-section">
+                <h2>Quick Reference: Open Source Checklist</h2>
+
+                <h3>Repo Foundation</h3>
+                <ul class="checklist">
+                    <li>Clear, concise About</li>
+                    <li>Comprehensive README</li>
+                    <li>Good first issues labeled</li>
+                    <li>Contributing guide</li>
+                    <li>License chosen</li>
+                </ul>
+
+                <h3>Growth</h3>
+                <ul class="checklist">
+                    <li>Submitted to relevant lists</li>
+                    <li>Social media presence</li>
+                    <li>Community channels set up</li>
+                    <li>Milestone celebrations planned</li>
+                </ul>
+
+                <h3>Conversion</h3>
+                <ul class="checklist">
+                    <li>Clear path to paid product</li>
+                    <li>Self-hosted vs cloud clear</li>
+                    <li>Enterprise features documented</li>
+                    <li>Support options visible</li>
+                </ul>
+            </section>
+
+            <section class="resources-section">
+                <h2>Resources & Further Reading</h2>
+
+                <h3>Open Source Strategy</h3>
+                <ul>
+                    <li><a href="https://www.opensourcebusiness.com/" target="_blank">Business of Open Source Podcast</a> — Emily Omier (OSS commercialization)</li>
+                    <li><a href="https://open.spotify.com/episode/0m7DUpFGGrL4R2B5c7hCX5" target="_blank">Monetizing Open Source</a> — Kelsey Hightower</li>
+                    <li><a href="https://www.amazon.com/Working-Public-Making-Maintenance-Software/dp/0578675862" target="_blank">Working in Public: Making and Maintenance of OSS</a> — Nadia Eghbal</li>
+                </ul>
+
+                <h3>GitHub Marketing</h3>
+                <ul>
+                    <li><a href="https://www.markepear.dev/example/how-to-write-github-readme" target="_blank">How to Write a GitHub README</a> — Markepear</li>
+                    <li><a href="https://dev.to/iamludal/get-your-first-1000-github-stars-2o7e" target="_blank">Detailed Creative Playbook for GitHub Stars</a> — Dev.to</li>
+                    <li><a href="https://github.com/prisma/prisma" target="_blank">Prisma README Example</a> — Best-in-class README</li>
+                </ul>
+
+                <h3>Growth Case Studies</h3>
+                <ul>
+                    <li><a href="https://www.youtube.com/watch?v=X8P8v6mW9GM" target="_blank">Growing Resend's Open Source Traction</a> — Zeno Rocha (Resend CEO)</li>
+                    <li><a href="https://posthog.com/blog/open-source-eating-saas" target="_blank">PostHog's Open Source GTM</a> — James Hawkins</li>
+                    <li><a href="https://www.linkedin.com/feed/update/urn:li:activity:7052552621915529217/" target="_blank">Snyk SEO Growth Loop via GitHub</a> — Ben Williams</li>
+                </ul>
+
+                <h3>Tools</h3>
+                <ul>
+                    <li><a href="https://github.com/sindresorhus/awesome" target="_blank">Awesome Lists</a> — Getting on relevant lists</li>
+                    <li><a href="https://star-history.com/" target="_blank">GitHub Star History</a> — Track star growth</li>
+                </ul>
+            </section>
+        </article>
+
+        <nav class="guide-nav">
+            <a href="guide-09-sales-gtm.html" class="guide-nav-link prev">
+                <div class="guide-nav-label">Previous</div>
+                <div class="guide-nav-title">Sales & GTM</div>
+            </a>
+            <a href="guide-11-social-media.html" class="guide-nav-link next">
+                <div class="guide-nav-label">Next Guide</div>
+                <div class="guide-nav-title">Social Media</div>
+            </a>
+        </nav>
+    </main>
+
+</body>
+</html>

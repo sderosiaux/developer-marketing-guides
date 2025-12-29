@@ -1,0 +1,427 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website & Landing Pages | Developer Marketing Guides</title>
+    <meta name="description" content="A comprehensive guide to creating developer-focused websites that convert. From foundational principles to advanced design patterns.">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav class="nav">
+        <div class="nav-container">
+            <a href="index.html" class="nav-logo">
+                <span class="nav-logo-icon">📚</span>
+                <span class="nav-logo-text">Dev Marketing Guides</span>
+            </a>
+            <div class="nav-links">
+                <a href="index.html#guides" class="nav-link">All Guides</a>
+                <a href="https://newslepear.beehiiv.com/" target="_blank" rel="noopener" class="nav-link">Newsletter</a>
+                <a href="https://github.com/sderosiaux/developer-marketing-guides" target="_blank" rel="noopener" class="nav-link nav-link-github">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                        <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/>
+                    </svg>
+                </a>
+            </div>
+        </div>
+    </nav>
+
+    <header class="guide-header">
+        <div class="guide-header-container">
+            <nav class="guide-header-nav">
+                <a href="index.html">← Back to all guides</a>
+            </nav>
+            <div class="guide-header-number">Guide 01</div>
+            <h1 class="guide-header-title">Website & Landing Pages for Developer Tools</h1>
+            <p class="guide-header-description">A comprehensive guide to creating developer-focused websites that convert. From foundational principles to advanced design patterns.</p>
+        </div>
+    </header>
+
+    <main class="guide-content">
+        <nav class="guide-toc">
+            <div class="guide-toc-title">In This Guide</div>
+            <ul class="guide-toc-list">
+                <li><a href="#level-1"><span class="toc-number">01</span> Foundations</a></li>
+                <li><a href="#level-2"><span class="toc-number">02</span> Header & Value Proposition</a></li>
+                <li><a href="#level-3"><span class="toc-number">03</span> Feature Sections & Visual Design</a></li>
+                <li><a href="#level-4"><span class="toc-number">04</span> CTAs & Conversion</a></li>
+                <li><a href="#level-5"><span class="toc-number">05</span> Developer Funnel Structure</a></li>
+                <li><a href="#level-6"><span class="toc-number">06</span> Navigation & Information Architecture</a></li>
+                <li><a href="#level-7"><span class="toc-number">07</span> Specific Page Types</a></li>
+                <li><a href="#level-8"><span class="toc-number">08</span> The Complete Picture</a></li>
+                <li><a href="#checklist"><span class="toc-number">09</span> Quick Reference Checklist</a></li>
+                <li><a href="#resources"><span class="toc-number">10</span> Resources & Further Reading</a></li>
+            </ul>
+        </nav>
+
+        <article class="guide-article">
+            <h2 id="level-1">Level 1: Foundations</h2>
+
+            <img src="guides/images/01-developer-trust-ladder.png" alt="Developer Trust Ladder">
+
+            <h3>The Core Truth About Developer Websites</h3>
+            <p>Developers want to understand what your tool does, when it's good for them, and when it isn't. They know there's no silver bullet and there are tradeoffs. <strong>Saying where your tool is NOT a great fit gives comfort and safety to devs.</strong></p>
+
+            <blockquote>
+                <p>"Show me options and let me choose" — The developer mindset</p>
+            </blockquote>
+
+            <h3>The One Metric That Matters</h3>
+            <p>If you could choose one metric for your entire dev marketing efforts: <strong>Time to First Hello World</strong>.</p>
+            <p>Measure it from signup or from landing on the website. It's a proxy for how smooth the try-out experience is and a great candidate for your activation metric.</p>
+
+            <h3>What Makes Developer Websites Different</h3>
+            <p>Modern dev-focused companies are moving away from corporate aesthetics toward:</p>
+            <ul>
+                <li>Cosmos and 3D graphics</li>
+                <li>Gaming-inspired designs</li>
+                <li>Dark mode / IDE-like aesthetics</li>
+                <li>Code-first visual elements</li>
+            </ul>
+            <p>Examples: Vercel Workflows, DagsHub, modern Supabase</p>
+
+            <hr>
+
+            <h2 id="level-2">Level 2: Header & Value Proposition</h2>
+
+            <h3>The Anatomy of a Great Dev Tool Header</h3>
+            <p>A strong header needs these components:</p>
+            <ol>
+                <li><strong>The "What"</strong> — Explained immediately (e.g., "Video API", "live and on-demand experiences")</li>
+                <li><strong>Clear Persona</strong> — Who is this for ("for developers")</li>
+                <li><strong>Job to Be Done</strong> — What they'll accomplish ("build online video")</li>
+            </ol>
+
+            <p><strong>Example from Mux:</strong></p>
+            <ul>
+                <li>Clear "what": Video API</li>
+                <li>Super clear persona: developers</li>
+                <li>Job to be done: build online video experiences</li>
+                <li>Animated visual showing API → UI results</li>
+            </ul>
+
+            <h3>Value Proposition Frameworks</h3>
+            <p><strong>The Jargon Balance:</strong> Common wisdom says talk about values, not features. But for developers, using industry jargon often works great.</p>
+
+            <p><strong>Solution: Show Both + The "How"</strong> (Tailwind CSS approach):</p>
+            <ol>
+                <li>Show the result</li>
+                <li>Name the feature (use jargon)</li>
+                <li>Show the code with highlighted relevant parts</li>
+            </ol>
+            <p>This educates and inspires simultaneously.</p>
+
+            <h3>Header Design Patterns</h3>
+
+            <p><strong>Pattern: Header with Tabs</strong> (Appsmith)<br>
+            When your tool does many things, use tabs in the header to let users self-select their use case without overwhelming.</p>
+
+            <p><strong>Pattern: Competitor Mention</strong> (Axiom)<br>
+            In mature categories, explicitly own your unique selling point versus known competitors:</p>
+            <ul>
+                <li>Don't pretend you're the only one</li>
+                <li>Show how you're different (speed, features, price)</li>
+                <li>Use competitor names directly</li>
+            </ul>
+
+            <p><strong>Pattern: Event Promotion in Header</strong> (Vercel)<br>
+            For major events, place registration CTAs right in the header — it's the most viewed part of the most visited page.</p>
+
+            <h3>Naming and Category Framing</h3>
+            <p>Words carry expectations, fears, and hopes. The difference between calling yourself a "language" vs "framework" vs "platform" is massive.</p>
+
+            <p><strong>Wasp Case Study:</strong></p>
+            <ul>
+                <li>"Language for web devs" → Scary, feels like huge workflow change</li>
+                <li>"Framework for web devs" → Numbers shot up immediately</li>
+            </ul>
+            <p>Think carefully about: language, framework, platform, tool, suite, solution, app, extension</p>
+
+            <hr>
+
+            <h2 id="level-3">Level 3: Feature Sections & Visual Design</h2>
+
+            <h3>The Compact Scrolling Feature Section</h3>
+            <p><strong>Problem:</strong> Displaying multiple features without making pages exhaustingly long.</p>
+
+            <p><strong>Solution (from Graphite):</strong></p>
+            <ul>
+                <li>Single section switches subsections as users scroll</li>
+                <li>Progress bar indicates advancement</li>
+                <li>Each subsection: headline + one-liner + CTA + visual</li>
+                <li>Can show 5+ features without overwhelming</li>
+            </ul>
+
+            <p><strong>Variants:</strong></p>
+            <ul>
+                <li>Remove the one-liner or "Learn more" button</li>
+                <li>Auto-progress sections if users don't interact</li>
+            </ul>
+
+            <h3>Interactive Diagram Sections (Buildkite)</h3>
+            <p>For complex products:</p>
+            <ul>
+                <li>Show a single diagram representing your platform</li>
+                <li>As user scrolls, Headline-Subhead-CTA changes</li>
+                <li>Different parts of the diagram highlight</li>
+                <li>Solves the "diagram + text" balance problem</li>
+            </ul>
+
+            <h3>Showing Code and UI Together</h3>
+            <p>The dance of showing code without overwhelming:</p>
+            <ul>
+                <li>Show code to make it feel "devy"</li>
+                <li>But don't show everything</li>
+                <li>UI should look like your actual UI</li>
+                <li>Show only what's necessary</li>
+            </ul>
+            <p><strong>CircleCI approach:</strong> Clean video explainers that balance code visibility with clarity.</p>
+
+            <h3>Social Proof That Works</h3>
+            <p><strong>Beyond logos — Buildkite's approach:</strong></p>
+            <ul>
+                <li>Mini case studies with logos</li>
+                <li>Show: Product metrics (CI/CD jobs), Known app result (Slack, Uber), ROI numbers (60% faster)</li>
+                <li>Conveys massive info in small space</li>
+            </ul>
+
+            <hr>
+
+            <h2 id="level-4">Level 4: CTAs & Conversion</h2>
+
+            <h3>CTA Philosophy for Developers</h3>
+            <p>Most CTAs should go to docs. Use actionable copy:</p>
+            <ul>
+                <li>"Start building"</li>
+                <li>"Extend [Product]"</li>
+                <li>"Launch playground" (for sandbox experiences)</li>
+            </ul>
+
+            <h3>The "Playground" CTA Pattern</h3>
+            <p>For infrastructure tools where showing value quickly is hard:</p>
+            <p><strong>Good copy elements:</strong></p>
+            <ul>
+                <li>Acknowledge it isn't a real thing ("playground")</li>
+                <li>Convey interactivity</li>
+                <li>Make it feel like less work, more play</li>
+            </ul>
+            <p>Example: "Play with Axiom" → "Launch Playground"</p>
+
+            <h3>GitHub Star CTA Placement</h3>
+            <p>Put your GitHub star counter/CTA in the navbar. It's always visible and capitalizes on social proof.</p>
+
+            <h3>Docs-to-Conversion Trick</h3>
+            <p><strong>Add a signup CTA to your docs header.</strong></p>
+            <p>Stripe added "Create Account" to their docs header and saw significant conversion impact. Apollo GraphQL saw 20% signup increase with this simple change.</p>
+
+            <hr>
+
+            <h2 id="level-5">Level 5: Developer Funnel Structure</h2>
+
+            <img src="guides/images/01-developer-funnel.png" alt="Developer Funnel">
+
+            <h3>The Developer Marketing Funnel</h3>
+            <p>Unlike classic B2B (awareness → consideration → conversion), dev tools have:</p>
+
+            <h4>1. Exploration</h4>
+            <ul>
+                <li>Communicate clear differentiation</li>
+                <li>Make navigation easy (interactive navbars, show more on hover)</li>
+                <li>Show your tool works with their stack (logos, SDK snippets, testimonials)</li>
+                <li>Make quickstarts and API docs easy to find</li>
+            </ul>
+
+            <h4>2. Demo</h4>
+            <ul>
+                <li>Show working samples (sandbox, template, live app)</li>
+                <li>Provide searchable template library by use case/language/framework</li>
+                <li>Step-by-step guides for implementation</li>
+                <li>Architectural scenarios showing ecosystem integration</li>
+            </ul>
+
+            <h4>3. Internal Sale</h4>
+            <ul>
+                <li>Use cases and solution pages for less technical visitors</li>
+                <li>Enterprise features prominently on pricing/enterprise pages</li>
+                <li>"Convince your boss" content pack: value prop, features, case studies, ROI calculators, email templates</li>
+            </ul>
+
+            <hr>
+
+            <h2 id="level-6">Level 6: Navigation & Information Architecture</h2>
+
+            <h3>Navbar Best Practices</h3>
+            <p><strong>Self-hosted deployment placement (n8n):</strong><br>
+            Place self-hosted deployment guidance in docs tab dropdown. This frontloads a key differentiator where developers naturally look.</p>
+
+            <p><strong>What else to surface in docs dropdown:</strong></p>
+            <ul>
+                <li>Quickstart guides</li>
+                <li>Integration documentation</li>
+                <li>Self-hosted options</li>
+            </ul>
+
+            <h3>The "Escape Hatch" Principle</h3>
+            <p>People will land on wrong pages. Example: Googling "Stripe checkout" can land you on dev-focused or no-code-focused page.</p>
+            <p><strong>Solution:</strong> Put a link/button at the top to help people go to the page they actually wanted.</p>
+
+            <hr>
+
+            <h2 id="level-7">Level 7: Specific Page Types</h2>
+
+            <h3>Comparison Pages</h3>
+            <p>Developers search competitively more than typical buyers. Clear comparisons capture high-intent traffic.</p>
+
+            <p><strong>New Relic vs Datadog approach:</strong></p>
+            <ul>
+                <li>Price comparison graphs</li>
+                <li>CTAs focused on helping compare prices</li>
+                <li>Category-specific jargon to drive the argument</li>
+            </ul>
+
+            <h3>Pricing Pages</h3>
+            <p><strong>Elena Verna's Framework:</strong></p>
+            <ul>
+                <li>No placeholder header copy ("Pricing that works...")</li>
+                <li>Logos above main table for social proof</li>
+                <li>3 plans: individual/team/organization</li>
+                <li>Clear "for whom" each plan is designed</li>
+                <li>"Everything in +" pattern</li>
+                <li>CTA moved up</li>
+            </ul>
+
+            <p><strong>Retool's Clarity:</strong><br>
+            Instead of ambiguous deployment terminology:</p>
+            <ul>
+                <li>"Cloud (we host)"</li>
+                <li>"Self-hosted (you host)"</li>
+            </ul>
+
+            <hr>
+
+            <h2 id="level-8">Level 8: The Complete Picture</h2>
+
+            <h3>Who Should You Address on the Homepage?</h3>
+            <p><strong>Land messaging for the champion, not the broadest audience.</strong></p>
+            <p>Developers naturally think and talk about products through anchoring. Use it in your messaging.</p>
+
+            <p><strong>Anchoring examples:</strong></p>
+            <ul>
+                <li>"Open-source Firebase alternative" (Supabase)</li>
+                <li>Reference to known tools: "If X and Y had a baby that focused on Z"</li>
+                <li>Tinybird: One sentence referencing ClickHouse, Supabase, and Postgres carries massive meaning to the right audience</li>
+            </ul>
+
+            <h3>The Clear Copy Test</h3>
+            <p>Two versions tested:</p>
+            <ol>
+                <li>"The easiest way to capture and transcribe meetings"</li>
+                <li>"The API for developers to access meeting recordings, transcripts and metadata"</li>
+            </ol>
+            <p><strong>Version 2 won.</strong> It clearly says what it does. The first sounds like an investor pitch. The second captures interest of people searching for solutions.</p>
+
+            <h3>Positioning Advice</h3>
+            <p><strong>Don't be "for every company on the planet."</strong></p>
+            <p>Early on: Start narrow, build credibility, build one fantastic product people rave about. Then go wider.</p>
+            <p><strong>Example:</strong> Snyk's narrow initial positioning — they didn't try to be everything from day one.</p>
+
+            <hr>
+
+            <h2 id="checklist">Quick Reference Checklist</h2>
+
+            <h3>Header</h3>
+            <ul>
+                <li>Clear "what" in first 5 words</li>
+                <li>Obvious persona identification</li>
+                <li>Job to be done stated</li>
+                <li>Primary CTA goes to docs/signup</li>
+                <li>Secondary CTA for demo/sandbox</li>
+                <li>GitHub stars visible</li>
+            </ul>
+
+            <h3>Value Proposition</h3>
+            <ul>
+                <li>Shows feature + value + how</li>
+                <li>Uses appropriate jargon</li>
+                <li>Mentions where NOT a fit</li>
+                <li>Competitor positioning if mature market</li>
+            </ul>
+
+            <h3>Navigation</h3>
+            <ul>
+                <li>Self-hosted/quickstart in docs dropdown</li>
+                <li>Escape hatches for wrong landings</li>
+                <li>Search functionality prominent</li>
+            </ul>
+
+            <h3>Social Proof</h3>
+            <ul>
+                <li>Logos visible</li>
+                <li>Mini case studies with metrics</li>
+                <li>Testimonials from known companies</li>
+            </ul>
+
+            <h3>Feature Sections</h3>
+            <ul>
+                <li>Not overwhelming</li>
+                <li>Progressive disclosure via scroll</li>
+                <li>Code + result shown together</li>
+                <li>Interactive elements where appropriate</li>
+            </ul>
+
+            <h3>Conversion Elements</h3>
+            <ul>
+                <li>Signup CTA in docs header</li>
+                <li>Playground/sandbox accessible</li>
+                <li>Clear path from explore → try → buy</li>
+            </ul>
+
+            <hr>
+
+            <h2 id="resources">Resources & Further Reading</h2>
+
+            <h3>Comprehensive Guides</h3>
+            <ul>
+                <li><a href="http://www.plg.news/p/the-ultimate-guide-to-building-developer-website" target="_blank" rel="noopener">The Ultimate Guide to Building Developer Tool Websites</a> — Ben Williams</li>
+                <li><a href="https://playbooks.hypergrowthpartners.com/p/devtools-website-design-principles" target="_blank" rel="noopener">Dev Tool Website Design Principles</a> — Gonto (ex-Auth0)</li>
+                <li><a href="https://www.developermarkepear.com/blog/who-to-address-on-the-dev-tool-homepage" target="_blank" rel="noopener">Who to Address on the Dev Tool Homepage</a></li>
+            </ul>
+
+            <h3>Value Proposition & Positioning</h3>
+            <ul>
+                <li><a href="https://www.developermarkepear.com/blog/value-proposition-developer-tools-examples" target="_blank" rel="noopener">Value Proposition for Developer Tools (20+ examples)</a></li>
+                <li><a href="https://lethain.com/stripe-product-led-developer-centric-growth" target="_blank" rel="noopener">How Stripe's GTM Evolved Over Time</a></li>
+                <li><a href="https://www.heavybit.com/library/blog/heres-how-to-do-segmentation-better" target="_blank" rel="noopener">Developer Segmentation Framework</a></li>
+            </ul>
+
+            <h3>Examples</h3>
+            <ul>
+                <li><a href="https://tailwindcss.com/" target="_blank" rel="noopener">Tailwind CSS</a> — Feature + value + code pattern</li>
+                <li><a href="https://clerk.com/" target="_blank" rel="noopener">Clerk</a> — Interactive feature tiles</li>
+                <li><a href="https://www.mux.com/" target="_blank" rel="noopener">Mux</a> — Great API product header</li>
+                <li><a href="https://deepgram.com/" target="_blank" rel="noopener">Deepgram</a> — API visual in header</li>
+            </ul>
+
+            <h3>Podcasts</h3>
+            <ul>
+                <li><a href="https://open.spotify.com/episode/6mK5cdDqCIhZXY05BnOOVE" target="_blank" rel="noopener">The Developer-Facing Startup with Adam Frankl</a> — Social proof, marketing problem vs product</li>
+            </ul>
+        </article>
+
+        <nav class="guide-nav">
+            <a href="index.html" class="guide-nav-link prev">
+                <div class="guide-nav-label">Home</div>
+                <div class="guide-nav-title">All Guides</div>
+            </a>
+            <a href="guide-02-hacker-news-product-hunt.html" class="guide-nav-link next">
+                <div class="guide-nav-label">Next Guide</div>
+                <div class="guide-nav-title">Hacker News & Product Hunt</div>
+            </a>
+        </nav>
+    </main>
+
+</body>
+</html>

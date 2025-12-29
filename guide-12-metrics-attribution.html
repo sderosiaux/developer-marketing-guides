@@ -1,0 +1,504 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Metrics & Attribution for Developer Marketing | Developer Marketing Guides</title>
+    <meta name="description" content="A comprehensive guide to measuring developer marketing effectiveness. From KPIs to attribution strategies.">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav class="nav">
+        <div class="nav-container">
+            <a href="index.html" class="nav-logo">
+                <span class="nav-logo-icon">📚</span>
+                <span class="nav-logo-text">Dev Marketing Guides</span>
+            </a>
+            <div class="nav-links">
+                <a href="index.html#guides" class="nav-link">All Guides</a>
+                <a href="https://newslepear.beehiiv.com/" target="_blank" rel="noopener" class="nav-link">Newsletter</a>
+                <a href="https://github.com/sderosiaux/developer-marketing-guides" target="_blank" rel="noopener" class="nav-link nav-link-github">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                        <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/>
+                    </svg>
+                </a>
+            </div>
+        </div>
+    </nav>
+
+    <header class="guide-header">
+        <div class="guide-header-container">
+            <nav class="guide-header-nav">
+                <a href="index.html">← Back to all guides</a>
+            </nav>
+            <div class="guide-header-number">Guide 12</div>
+            <h1 class="guide-header-title">Metrics & Attribution for Developer Marketing</h1>
+            <p class="guide-header-description">A comprehensive guide to measuring developer marketing effectiveness. From KPIs to attribution strategies.</p>
+        </div>
+    </header>
+
+    <main class="guide-content">
+        <nav class="guide-toc">
+            <div class="guide-toc-title">In This Guide</div>
+            <ul class="guide-toc-list">
+                <li><a href="#philosophy"><span class="toc-number">01</span> Metrics Philosophy</a></li>
+                <li><a href="#attribution-fundamentals"><span class="toc-number">02</span> Attribution Fundamentals</a></li>
+                <li><a href="#self-reported"><span class="toc-number">03</span> Self-Reported Attribution</a></li>
+                <li><a href="#journey-metrics"><span class="toc-number">04</span> Developer Journey Metrics</a></li>
+                <li><a href="#marketing-kpis"><span class="toc-number">05</span> Marketing KPIs</a></li>
+                <li><a href="#devrel-content"><span class="toc-number">06</span> DevRel and Content Metrics</a></li>
+                <li><a href="#proving-roi"><span class="toc-number">07</span> Proving Marketing ROI</a></li>
+                <li><a href="#docs-metrics"><span class="toc-number">08</span> Docs Metrics</a></li>
+                <li><a href="#event-community"><span class="toc-number">09</span> Event and Community Metrics</a></li>
+                <li><a href="#reporting"><span class="toc-number">10</span> Reporting and Dashboards</a></li>
+            </ul>
+        </nav>
+
+        <article class="guide-article">
+            <section id="philosophy">
+                <h2>Part 1: Metrics Philosophy</h2>
+
+                <h3>The Core Principle</h3>
+                <blockquote>
+                    <p>Only look at metrics that help you make decisions.</p>
+                </blockquote>
+                <p>If you track metrics and create dashboards but don't use them for decision-making, rethink your metrics.</p>
+
+                <h3>The ROI Reality</h3>
+                <p><strong>From Rand Fishkin (founder of Moz, SparkToro):</strong></p>
+                <blockquote>
+                    <p>"Waste 50% of your budget to get more value from the other 50%"</p>
+                </blockquote>
+                <p>Accept that not everything is measurable. But still:</p>
+                <ul>
+                    <li>Optimize impact within activities</li>
+                    <li>Justify budget for programs</li>
+                    <li>Make arguments for scaling</li>
+                </ul>
+            </section>
+
+            <section id="attribution-fundamentals">
+                <h2>Part 2: Attribution Fundamentals</h2>
+
+                <img src="guides/images/12-attribution-mix.png" alt="Attribution Mix" class="guide-image">
+
+                <h3>The Developer Attribution Challenge</h3>
+                <p>Developers are hard to attribute:</p>
+                <ul>
+                    <li>Long evaluation periods</li>
+                    <li>Multiple anonymous visits</li>
+                    <li>Dark social influence</li>
+                    <li>Word of mouth invisible</li>
+                    <li>Cookie restrictions</li>
+                </ul>
+
+                <h3>The Attribution Mix</h3>
+                <p><strong>Use both:</strong></p>
+                <ol>
+                    <li><strong>Software attribution:</strong> What you can track</li>
+                    <li><strong>Self-reported attribution:</strong> What they tell you</li>
+                </ol>
+                <p>Neither is complete. Together, they're useful.</p>
+            </section>
+
+            <section id="self-reported">
+                <h2>Part 3: Self-Reported Attribution</h2>
+
+                <h3>Why Self-Reported Matters</h3>
+                <p>Software attribution misses:</p>
+                <ul>
+                    <li>Podcast mentions</li>
+                    <li>Slack recommendations</li>
+                    <li>Twitter threads</li>
+                    <li>Word of mouth</li>
+                    <li>Conference encounters</li>
+                </ul>
+                <p>Self-reported captures what people remember as influential.</p>
+
+                <h3>Implementation</h3>
+                <p><strong>When to ask:</strong> On signup, during onboarding</p>
+                <p><strong>How to ask:</strong></p>
+                <ul>
+                    <li>"How did you hear about us?"</li>
+                    <li>Open text field (better data) vs dropdown (easier analysis)</li>
+                </ul>
+
+                <h3>Advanced Tricks</h3>
+                <p><strong>Fake option method:</strong> Add a "fake" channel you're not using (e.g., "billboards"). Gives you a misclick/didn't care baseline to subtract.</p>
+                <p><strong>Lift tests:</strong> Scale one channel for 1-2 weeks while keeping everything else constant. See the real impact (works best for ads).</p>
+            </section>
+
+            <section id="journey-metrics">
+                <h2>Part 4: Developer Journey Metrics</h2>
+
+                <img src="guides/images/12-developer-journey-metrics.png" alt="Developer Journey Metrics" class="guide-image">
+
+                <h3>Journey Stages</h3>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Stage</th>
+                            <th>Key Metrics</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><strong>Discover</strong></td>
+                            <td>Traffic, impressions, reach</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Start</strong></td>
+                            <td>Signups, time to first action</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Activate</strong></td>
+                            <td>Activation rate, time to first X</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Convert</strong></td>
+                            <td>Free-to-paid, upgrade rate</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Scale</strong></td>
+                            <td>Expansion, team size, upsell</td>
+                        </tr>
+                    </tbody>
+                </table>
+
+                <h3>The One Metric to Rule Them All</h3>
+                <p><strong>Time to First Hello World</strong></p>
+                <p>Measure from signup or website landing. Proxy for how smooth the try-out experience is. Great activation metric candidate.</p>
+
+                <h3>Stage-Specific Metrics</h3>
+                <p><strong>Discover:</strong></p>
+                <ul>
+                    <li>Website traffic (by source)</li>
+                    <li>Social reach</li>
+                    <li>Community mentions</li>
+                </ul>
+
+                <p><strong>Start:</strong></p>
+                <ul>
+                    <li>Signups (daily, weekly)</li>
+                    <li>Docs visits</li>
+                    <li>Quickstart completions</li>
+                </ul>
+
+                <p><strong>Activate:</strong></p>
+                <ul>
+                    <li>Feature X usage (first time)</li>
+                    <li>API calls made</li>
+                    <li>Integration connected</li>
+                </ul>
+
+                <p><strong>Convert:</strong></p>
+                <ul>
+                    <li>Trial-to-paid conversion</li>
+                    <li>Time to first payment</li>
+                    <li>Free-to-team upgrade</li>
+                </ul>
+
+                <p><strong>Scale:</strong></p>
+                <ul>
+                    <li>Seat expansion</li>
+                    <li>Usage growth</li>
+                    <li>Enterprise upgrades</li>
+                </ul>
+            </section>
+
+            <section id="marketing-kpis">
+                <h2>Part 5: Marketing KPIs</h2>
+
+                <h3>What Marketing Should Own</h3>
+                <p><strong>From OpenView research (PLG-focused):</strong></p>
+                <p>Marketing most often owns:</p>
+                <ol>
+                    <li><strong>Acquisition</strong> — Signups, leads</li>
+                    <li><strong>Self-serve revenue</strong> — But not free-to-paid conversion</li>
+                </ol>
+
+                <h3>Why the Split?</h3>
+                <p>Free-to-paid conversion requires:</p>
+                <ul>
+                    <li>Product onboarding</li>
+                    <li>Docs</li>
+                    <li>Initial enablement</li>
+                </ul>
+                <p>That feels like product/growth.</p>
+                <p>Once converted, marketing helps:</p>
+                <ul>
+                    <li>Feature awareness</li>
+                    <li>Adoption growth</li>
+                    <li>Usage expansion</li>
+                </ul>
+
+                <h3>Core Marketing Metrics (from Datadog CMO)</h3>
+                <ul>
+                    <li><strong>MQLs</strong> (awareness proxy when MQL→Opp conversion stable)</li>
+                    <li><strong>Opportunities</strong></li>
+                    <li><strong>Pipeline value</strong></li>
+                    <li><strong>Win rate</strong></li>
+                </ul>
+            </section>
+
+            <section id="devrel-content">
+                <h2>Part 6: DevRel and Content Metrics</h2>
+
+                <h3>Measuring DevRel</h3>
+                <p><strong>Resources:</strong></p>
+                <ul>
+                    <li>Developer Advocate's Guide to Metrics</li>
+                    <li>Devrel KPIs (Orbit)</li>
+                    <li>Measuring Developer Relations (swyx)</li>
+                </ul>
+                <p><strong>Common metrics:</strong></p>
+                <ul>
+                    <li>Content engagement</li>
+                    <li>Community growth</li>
+                    <li>Conference impact</li>
+                    <li>Developer satisfaction</li>
+                </ul>
+
+                <h3>Content Metrics</h3>
+                <p><strong>Engagement:</strong></p>
+                <ul>
+                    <li>Page views</li>
+                    <li>Time on page</li>
+                    <li>Scroll depth</li>
+                    <li>Social shares</li>
+                </ul>
+
+                <p><strong>Conversion:</strong></p>
+                <ul>
+                    <li>CTA clicks</li>
+                    <li>Signups attributed</li>
+                    <li>Demo requests</li>
+                </ul>
+
+                <p><strong>Quality:</strong></p>
+                <ul>
+                    <li>Repeat visits</li>
+                    <li>Newsletter signups</li>
+                    <li>Community joins</li>
+                </ul>
+            </section>
+
+            <section id="proving-roi">
+                <h2>Part 7: Proving Marketing ROI</h2>
+
+                <h3>The Program-Level Approach</h3>
+                <p>Treat marketing programs like products:</p>
+                <ol>
+                    <li>Measure ROI at program level</li>
+                    <li>Optimize activities within programs</li>
+                    <li>Don't report ROI on individual activities</li>
+                </ol>
+
+                <h3>Lower Bound ROI Estimation</h3>
+                <p>Estimate based on meaningful outputs:</p>
+                <ul>
+                    <li>Signups</li>
+                    <li>Demo requests</li>
+                    <li>High-intent pageviews (pricing, terms, contact)</li>
+                </ul>
+                <p>This gives you a floor, not ceiling.</p>
+
+                <h3>The Attribution Trick (from Datadog CMO)</h3>
+                <p>With sales, walk through enterprise customer journeys:</p>
+                <ul>
+                    <li>All marketing touches</li>
+                    <li>All sales engagements</li>
+                    <li>The full picture</li>
+                </ul>
+                <p><strong>Do this quarterly.</strong></p>
+                <p>Result: Less fighting about attribution, more appreciation across teams.</p>
+            </section>
+
+            <section id="docs-metrics">
+                <h2>Part 8: Docs Metrics</h2>
+
+                <h3>Key Docs Metrics</h3>
+                <p><strong>North Star:</strong> Time to first [X]</p>
+                <ul>
+                    <li>Time to first API call</li>
+                    <li>Time to first dashboard</li>
+                    <li>Time to first integration</li>
+                </ul>
+
+                <p><strong>Quality:</strong> Customer satisfaction on pages</p>
+                <ul>
+                    <li>60%+ is good</li>
+                    <li>Track per-page ratings</li>
+                    <li>Monitor trends</li>
+                </ul>
+
+                <h3>Search Analytics</h3>
+                <p>Track:</p>
+                <ul>
+                    <li>Most common searches</li>
+                    <li>Zero-result searches</li>
+                    <li>Search → bounce sequences</li>
+                </ul>
+                <p>Use to improve content and navigation.</p>
+            </section>
+
+            <section id="event-community">
+                <h2>Part 9: Event and Community Metrics</h2>
+
+                <h3>Event ROI</h3>
+                <p><strong>Quantitative:</strong></p>
+                <ul>
+                    <li>Leads captured</li>
+                    <li>Meetings booked</li>
+                    <li>Pipeline generated</li>
+                    <li>Deals closed</li>
+                </ul>
+                <p><strong>Qualitative:</strong></p>
+                <ul>
+                    <li>Conversation quality</li>
+                    <li>Product feedback</li>
+                    <li>Competitive intel</li>
+                </ul>
+
+                <h3>Community Metrics</h3>
+                <p><strong>Engagement:</strong></p>
+                <ul>
+                    <li>Daily/weekly active members</li>
+                    <li>Messages per member</li>
+                    <li>Response rate to questions</li>
+                </ul>
+                <p><strong>Quality:</strong></p>
+                <ul>
+                    <li>Member retention</li>
+                    <li>Satisfaction scores</li>
+                    <li>Content generated</li>
+                </ul>
+                <p><strong>Business:</strong></p>
+                <ul>
+                    <li>Community → customers</li>
+                    <li>Support deflection</li>
+                    <li>Referrals sourced</li>
+                </ul>
+            </section>
+
+            <section id="reporting">
+                <h2>Part 10: Reporting and Dashboards</h2>
+
+                <h3>What to Report</h3>
+                <p><strong>Weekly:</strong></p>
+                <ul>
+                    <li>Signups trend</li>
+                    <li>Key channel performance</li>
+                    <li>Active experiments</li>
+                </ul>
+
+                <p><strong>Monthly:</strong></p>
+                <ul>
+                    <li>Full funnel metrics</li>
+                    <li>Channel performance</li>
+                    <li>Content performance</li>
+                    <li>Budget vs results</li>
+                </ul>
+
+                <p><strong>Quarterly:</strong></p>
+                <ul>
+                    <li>Pipeline review with sales</li>
+                    <li>Program ROI</li>
+                    <li>Channel strategy review</li>
+                </ul>
+
+                <h3>Dashboard Principles</h3>
+                <ol>
+                    <li><strong>Actionable:</strong> Each metric should inform a decision</li>
+                    <li><strong>Clear:</strong> Anyone can understand it</li>
+                    <li><strong>Updated:</strong> Real-time or daily</li>
+                    <li><strong>Focused:</strong> Don't track everything, track what matters</li>
+                </ol>
+            </section>
+
+            <section class="checklist-section">
+                <h2>Quick Reference: Metrics Checklist</h2>
+
+                <h3>Attribution</h3>
+                <ul class="checklist">
+                    <li>Software tracking implemented</li>
+                    <li>Self-reported attribution on signup</li>
+                    <li>Combining both in analysis</li>
+                    <li>Regular attribution reviews</li>
+                </ul>
+
+                <h3>Developer Journey</h3>
+                <ul class="checklist">
+                    <li>Stage definitions clear</li>
+                    <li>Metrics per stage defined</li>
+                    <li>Activation metric chosen</li>
+                    <li>Time to X tracked</li>
+                </ul>
+
+                <h3>Marketing KPIs</h3>
+                <ul class="checklist">
+                    <li>Signups tracked</li>
+                    <li>Pipeline contribution measured</li>
+                    <li>Program-level ROI calculated</li>
+                    <li>Aligned with sales on definitions</li>
+                </ul>
+
+                <h3>Reporting</h3>
+                <ul class="checklist">
+                    <li>Weekly metrics reviewed</li>
+                    <li>Monthly report produced</li>
+                    <li>Quarterly strategy review</li>
+                    <li>Dashboards maintained</li>
+                </ul>
+            </section>
+
+            <section class="resources-section">
+                <h2>Resources & Further Reading</h2>
+
+                <h3>Attribution & ROI</h3>
+                <ul>
+                    <li><a href="https://sparktoro.com/blog/why-we-cant-measure-the-roi-of-content-marketing/" target="_blank">Rand Fishkin on Marketing ROI</a> — Accept 50% budget waste reality</li>
+                    <li><a href="https://open.spotify.com/episode/2PNnZhL8agfBaWa2lfYmXJ" target="_blank">Datadog CMO on Attribution</a> — Lenny's Podcast</li>
+                    <li><a href="https://hypergrowthpartners.substack.com/p/fire-framework-for-measuring-content-marketing" target="_blank">FIRE Framework for Measuring Content Marketing</a> — Jared Waxman</li>
+                </ul>
+
+                <h3>Developer Metrics</h3>
+                <ul>
+                    <li><a href="https://www.marythengvall.com/blog/2019/2/28/the-developer-advocates-guide-to-addressing-the-question-of-metrics" target="_blank">Developer Advocate's Guide to Metrics</a> — Mary Thengvall</li>
+                    <li><a href="https://orbit.love/blog/devrel-kpis" target="_blank">DevRel KPIs (Orbit)</a> — Metrics that matter</li>
+                    <li><a href="https://www.swyx.io/measuring-devrel" target="_blank">Measuring Developer Relations</a> — swyx</li>
+                </ul>
+
+                <h3>PLG Metrics</h3>
+                <ul>
+                    <li><a href="https://openviewpartners.com/product-benchmarks/" target="_blank">OpenView PLG Benchmarks</a> — What marketing should own</li>
+                    <li><a href="https://www.plg.news/" target="_blank">Product-Led Geek Newsletter</a> — Ben Williams (activation metrics)</li>
+                    <li><a href="https://boldstart.vc/resources/an-alternative-to-nps-for-dev-tools/" target="_blank">Alternative to NPS for Dev Tools</a> — boldstart.vc</li>
+                </ul>
+
+                <h3>Tools</h3>
+                <ul>
+                    <li><a href="https://amplitude.com/" target="_blank">Amplitude</a> — Product analytics</li>
+                    <li><a href="https://posthog.com/" target="_blank">PostHog</a> — Open source product analytics</li>
+                    <li><a href="https://getkoala.com/" target="_blank">Koala</a> — Visitor identification</li>
+                </ul>
+            </section>
+        </article>
+
+        <nav class="guide-nav">
+            <a href="guide-11-social-media.html" class="guide-nav-link prev">
+                <div class="guide-nav-label">Previous</div>
+                <div class="guide-nav-title">Social Media</div>
+            </a>
+            <a href="index.html" class="guide-nav-link next">
+                <div class="guide-nav-label">Back to</div>
+                <div class="guide-nav-title">All Guides</div>
+            </a>
+        </nav>
+    </main>
+
+</body>
+</html>

@@ -1,0 +1,436 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Documentation | Developer Marketing Guides</title>
+    <meta name="description" content="A comprehensive guide to creating documentation that converts. Learnings from Stripe, and how to make docs a growth engine.">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav class="nav">
+        <div class="nav-container">
+            <a href="index.html" class="nav-logo">
+                <span class="nav-logo-icon">📚</span>
+                <span class="nav-logo-text">Dev Marketing Guides</span>
+            </a>
+            <div class="nav-links">
+                <a href="index.html#guides" class="nav-link">All Guides</a>
+                <a href="https://newslepear.beehiiv.com/" target="_blank" rel="noopener" class="nav-link">Newsletter</a>
+                <a href="https://github.com/sderosiaux/developer-marketing-guides" target="_blank" rel="noopener" class="nav-link nav-link-github">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                        <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/>
+                    </svg>
+                </a>
+            </div>
+        </div>
+    </nav>
+
+    <header class="guide-header">
+        <div class="guide-header-container">
+            <nav class="guide-header-nav">
+                <a href="index.html">← Back to all guides</a>
+            </nav>
+            <div class="guide-header-number">Guide 05</div>
+            <h1 class="guide-header-title">Documentation for Developer Tools</h1>
+            <p class="guide-header-description">A comprehensive guide to creating documentation that converts. Learnings from Stripe, and how to make docs a growth engine.</p>
+        </div>
+    </header>
+
+    <main class="guide-content">
+        <nav class="guide-toc">
+            <div class="guide-toc-title">In This Guide</div>
+            <ul class="guide-toc-list">
+                <li><a href="#part-1"><span class="toc-number">01</span> Docs Philosophy</a></li>
+                <li><a href="#part-2"><span class="toc-number">02</span> Docs Fundamentals</a></li>
+                <li><a href="#part-3"><span class="toc-number">03</span> Making Docs Convert</a></li>
+                <li><a href="#part-4"><span class="toc-number">04</span> User Research for Docs</a></li>
+                <li><a href="#part-5"><span class="toc-number">05</span> Docs for AI/LLM Era</a></li>
+                <li><a href="#part-6"><span class="toc-number">06</span> Measuring Docs</a></li>
+                <li><a href="#part-7"><span class="toc-number">07</span> Docs Content Types</a></li>
+                <li><a href="#part-8"><span class="toc-number">08</span> Visual Elements</a></li>
+                <li><a href="#part-9"><span class="toc-number">09</span> Doc CTAs</a></li>
+                <li><a href="#part-10"><span class="toc-number">10</span> Docs Infrastructure</a></li>
+            </ul>
+        </nav>
+
+        <article class="guide-article">
+            <h2 id="part-1">Part 1: Docs Philosophy</h2>
+
+            <img src="guides/images/05-docs-radiating-circles.png" alt="Docs Radiating Circles">
+
+            <h3>Why Docs Matter More Than You Think</h3>
+            <p>Docs are not just support content. They are:</p>
+            <ul>
+                <li>Middle-of-funnel marketing</li>
+                <li>A key differentiator</li>
+                <li>Often the first real product experience</li>
+                <li>A growth lever</li>
+            </ul>
+
+            <blockquote>
+                <p>"If a developer can pick software that is also open source, it's just better." — But even without open source, great docs = transparency.</p>
+            </blockquote>
+
+            <h3>The Radiating Circles of Developer Experience</h3>
+            <p><strong>Product → Docs → Content → Community</strong></p>
+            <p>The further you go through product adoption and market maturity, the more "outside" you need to go to deliver value.</p>
+            <p>Docs are the second circle. Get them right before investing heavily in content and community.</p>
+
+            <hr>
+
+            <h2 id="part-2">Part 2: Docs Fundamentals (From Ex-Stripe Head of Docs)</h2>
+
+            <h3>First Impressions Matter</h3>
+            <p><strong>What developers see first:</strong></p>
+            <ul>
+                <li>Whitespace signals approachability</li>
+                <li>Diagrams signal thoroughness</li>
+                <li>Code signals practical value</li>
+            </ul>
+            <p>Make it inviting. Show you understand developers.</p>
+
+            <h3>The Docs MVP</h3>
+            <p><strong>Before anything else, nail this:</strong></p>
+            <p>The first quickstart experience where a developer:</p>
+            <ul>
+                <li>Understands what the product is</li>
+                <li>Accomplishes something</li>
+                <li>All in one 15-30 minute sitting</li>
+            </ul>
+            <p>Don't think about other docs until this works.</p>
+
+            <h3>Align Docs with Developer Stages</h3>
+            <p>After the quickstart, structure around developer journey:</p>
+            <ol>
+                <li>Getting started</li>
+                <li>Design</li>
+                <li>Build</li>
+                <li>Deploy</li>
+                <li>Manage</li>
+            </ol>
+            <p>This helps developers find what they need based on where they are.</p>
+
+            <hr>
+
+            <h2 id="part-3">Part 3: Making Docs Convert</h2>
+
+            <h3>The Signup CTA in Docs Header</h3>
+            <p><strong>Stripe added "Create Account" to their docs header.</strong></p>
+            <p>Results: Significant conversion impact.</p>
+            <p><strong>Apollo GraphQL:</strong> 20% signup increase from adding signup CTA to docs.</p>
+            <p><strong>Lesson:</strong> Docs visitors are often non-users evaluating your product. Give them an easy path to signup.</p>
+
+            <h3>Escape Hatches</h3>
+            <p>People land on wrong pages. Example: "Stripe checkout" search can land on dev-focused or no-code page.</p>
+            <p><strong>Solution:</strong> Put a link at the top to redirect to the right page.</p>
+            <p>"Looking for [other thing]? Go here."</p>
+
+            <h3>Navigation That Works</h3>
+            <p><strong>Key principles:</strong></p>
+            <ul>
+                <li>Self-hosted deployment in docs dropdown</li>
+                <li>Quickstart prominently accessible</li>
+                <li>Integration docs findable</li>
+                <li>Search that actually works</li>
+            </ul>
+
+            <hr>
+
+            <h2 id="part-4">Part 4: User Research for Docs</h2>
+
+            <h3>The Most Impactful Research</h3>
+            <p><strong>Method:</strong> Get a developer to complete a scenario. Ask them to "think out loud" as they normally would.</p>
+            <p>This uncovers:</p>
+            <ul>
+                <li>Where they get stuck</li>
+                <li>What language they use</li>
+                <li>What they expect vs what they find</li>
+                <li>Hidden pain points</li>
+            </ul>
+
+            <h3>The Internal Test</h3>
+            <p><strong>Quick version:</strong> Ask your company devs to review a doc.</p>
+            <p>Questions:</p>
+            <ul>
+                <li>"What are your takeaways?"</li>
+                <li>"What would you do next?"</li>
+                <li>"What's confusing?"</li>
+            </ul>
+            <p>See if takeaways align with the doc's goal.</p>
+
+            <h3>Look at Search Results</h3>
+            <p><strong>What people search for reveals:</strong></p>
+            <ul>
+                <li>Language they use</li>
+                <li>Features they want</li>
+                <li>Where they're stuck</li>
+            </ul>
+            <p>Many search in Google for "X {BRAND}" or "X {BRAND} docs" — treat these like internal searches.</p>
+
+            <hr>
+
+            <h2 id="part-5">Part 5: Docs for AI/LLM Era</h2>
+
+            <h3>Writing for LLMs</h3>
+            <p>As AI assistants reference docs, structure for machine readability:</p>
+            <ul>
+                <li>Clear headings</li>
+                <li>Explicit code examples</li>
+                <li>Structured data formats</li>
+                <li>llms.txt files</li>
+            </ul>
+
+            <h3>Solving AI Engines vs Docs</h3>
+            <p><strong>From Clerk:</strong> As AI assistants become common, ensure your docs are:</p>
+            <ul>
+                <li>Easily parseable</li>
+                <li>Semantically structured</li>
+                <li>Updated frequently</li>
+                <li>Machine-accessible</li>
+            </ul>
+
+            <hr>
+
+            <h2 id="part-6">Part 6: Measuring Docs</h2>
+
+            <h3>Key Metrics</h3>
+            <p><strong>North Star:</strong> Time to first [X]</p>
+            <ul>
+                <li>Time to first API call</li>
+                <li>Time to first dashboard created</li>
+                <li>Time to first integration</li>
+            </ul>
+
+            <p><strong>Quality indicator:</strong> Customer satisfaction on doc pages</p>
+            <ul>
+                <li>60%+ is good</li>
+                <li>Track per-page ratings</li>
+                <li>Monitor trends</li>
+            </ul>
+
+            <h3>Search Analytics</h3>
+            <p>What to track:</p>
+            <ul>
+                <li>Most common searches</li>
+                <li>Zero-result searches</li>
+                <li>Search → bounce sequences</li>
+            </ul>
+
+            <p>Use this to:</p>
+            <ul>
+                <li>Add missing content</li>
+                <li>Fix language mismatches</li>
+                <li>Improve navigation</li>
+            </ul>
+
+            <hr>
+
+            <h2 id="part-7">Part 7: Docs Content Types</h2>
+
+            <img src="guides/images/05-docs-content-types.png" alt="Docs Content Types">
+
+            <h3>The Quickstart</h3>
+            <p><strong>Purpose:</strong> First success in 15-30 minutes</p>
+
+            <p><strong>Structure:</strong></p>
+            <ol>
+                <li>What you'll build</li>
+                <li>Prerequisites</li>
+                <li>Step-by-step instructions</li>
+                <li>Working result</li>
+                <li>What's next</li>
+            </ol>
+
+            <p><strong>Tips:</strong></p>
+            <ul>
+                <li>Copy-paste ready code</li>
+                <li>Minimal prerequisites</li>
+                <li>Clear success criteria</li>
+                <li>Path to deeper docs</li>
+            </ul>
+
+            <h3>Integration Guides</h3>
+            <p><strong>Purpose:</strong> Show how you work with their stack</p>
+
+            <p><strong>Structure:</strong></p>
+            <ol>
+                <li>What this integration enables</li>
+                <li>Prerequisites</li>
+                <li>Setup steps</li>
+                <li>Configuration</li>
+                <li>Testing</li>
+                <li>Troubleshooting</li>
+            </ol>
+
+            <h3>API Reference</h3>
+            <p><strong>Purpose:</strong> Complete technical reference</p>
+
+            <p><strong>Best practices:</strong></p>
+            <ul>
+                <li>Consistent format</li>
+                <li>Clear request/response examples</li>
+                <li>Authentication explained first</li>
+                <li>Error codes documented</li>
+            </ul>
+
+            <h3>Conceptual Guides</h3>
+            <p><strong>Purpose:</strong> Explain the "why" and "how"</p>
+
+            <p><strong>When needed:</strong></p>
+            <ul>
+                <li>Complex architectures</li>
+                <li>New paradigms</li>
+                <li>Design decisions</li>
+                <li>Best practices</li>
+            </ul>
+
+            <hr>
+
+            <h2 id="part-8">Part 8: Visual Elements in Docs</h2>
+
+            <h3>Architecture Diagrams</h3>
+            <p><strong>Why they work:</strong></p>
+            <ul>
+                <li>Increase visibility in Slack and dark social</li>
+                <li>Shareable</li>
+                <li>Show you understand the ecosystem</li>
+                <li>Help architects sell internally</li>
+            </ul>
+
+            <h3>Code Snippets</h3>
+            <p><strong>Best practices:</strong></p>
+            <ul>
+                <li>Syntax highlighted</li>
+                <li>Copy button</li>
+                <li>Language selector</li>
+                <li>Real, working examples</li>
+            </ul>
+
+            <h3>Screenshots and GIFs</h3>
+            <p><strong>When to use:</strong></p>
+            <ul>
+                <li>UI instructions</li>
+                <li>Visual feedback confirmation</li>
+                <li>Complex sequences</li>
+            </ul>
+
+            <p><strong>Tips:</strong></p>
+            <ul>
+                <li>Keep updated (outdated screenshots hurt trust)</li>
+                <li>Annotate when needed</li>
+                <li>Consider screen recording for complex flows</li>
+            </ul>
+
+            <hr>
+
+            <h2 id="part-9">Part 9: Doc CTAs</h2>
+
+            <h3>Blog Post CTAs in Docs</h3>
+            <p><strong>The V7 approach:</strong></p>
+            <ul>
+                <li>CTAs that don't feel "obviously an ad"</li>
+                <li>Not too subtle to miss</li>
+                <li>Contextually relevant</li>
+            </ul>
+
+            <h3>Where to Place CTAs</h3>
+            <ol>
+                <li><strong>Header:</strong> Signup/trial</li>
+                <li><strong>End of articles:</strong> Related content, deeper features</li>
+                <li><strong>Contextual:</strong> When discussing features that require upgrade</li>
+                <li><strong>Sidebar:</strong> Persistent but non-intrusive</li>
+            </ol>
+
+            <h3>CTA Copy That Works</h3>
+            <p><strong>Do:</strong></p>
+            <ul>
+                <li>"Start building"</li>
+                <li>"Try it free"</li>
+                <li>"See it in action"</li>
+            </ul>
+
+            <p><strong>Don't:</strong></p>
+            <ul>
+                <li>"Buy now"</li>
+                <li>"Contact sales"</li>
+                <li>"Request demo" (for early docs)</li>
+            </ul>
+
+            <hr>
+
+            <h2 id="part-10">Part 10: Docs Infrastructure</h2>
+
+            <h3>Search</h3>
+            <p><strong>Must haves:</strong></p>
+            <ul>
+                <li>Fast results</li>
+                <li>Good ranking</li>
+                <li>Search suggestions</li>
+                <li>Zero-result handling</li>
+            </ul>
+
+            <h3>Navigation</h3>
+            <p><strong>Patterns that work:</strong></p>
+            <ul>
+                <li>Persistent sidebar</li>
+                <li>Breadcrumbs</li>
+                <li>Version selector</li>
+                <li>Language/framework switcher</li>
+            </ul>
+
+            <h3>Feedback Loops</h3>
+            <ul>
+                <li>Per-page ratings</li>
+                <li>"Was this helpful?"</li>
+                <li>Edit on GitHub</li>
+                <li>Feedback forms</li>
+            </ul>
+
+            <hr>
+
+            <h2>Resources & Further Reading</h2>
+
+            <h3>Masterclass</h3>
+            <ul>
+                <li><a href="https://www.youtube.com/watch?v=8b4fh_NY5fc" target="_blank" rel="noopener">Docs Masterclass with Ex-Stripe Head of Docs (Video)</a> — Dave Nunez</li>
+                <li><a href="https://podcasts.apple.com/us/podcast/just-when-we-started-to-solve-software-docs-ai-blew/id1505372978?i=1000656918860" target="_blank" rel="noopener">Same Episode on Apple Podcasts</a></li>
+                <li><a href="https://open.spotify.com/episode/2c7suSQTnicAstTSmhKcx1?si=6da860371ed34e6f" target="_blank" rel="noopener">Same Episode on Spotify</a></li>
+            </ul>
+
+            <h3>Conversion Optimization</h3>
+            <ul>
+                <li><a href="https://www.linkedin.com/posts/djnunez_if-you-have-a-developer-focused-product-activity-7264690873928413185-cano" target="_blank" rel="noopener">Adding Signup CTAs to Docs</a> — Dave Nunez</li>
+                <li><a href="https://www.markepear.dev/example/sign-up-in-docs-header" target="_blank" rel="noopener">How "Create Account" CTA in Docs Header Pushed Conversions for Stripe</a></li>
+            </ul>
+
+            <h3>AI & Documentation</h3>
+            <ul>
+                <li><a href="https://www.linkedin.com/posts/mgonto_clerkcom-just-shipped-one-of-my-fav-activation-activity-7333616478371397633-ntF-" target="_blank" rel="noopener">Clerk's Approach to AI Engines vs Docs</a></li>
+                <li><a href="https://clerk.com/docs/quickstarts/nextjs" target="_blank" rel="noopener">Clerk's AI-Friendly Docs Example</a></li>
+            </ul>
+
+            <h3>Tools</h3>
+            <ul>
+                <li><a href="https://scalar.com/" target="_blank" rel="noopener">Scalar</a> — API documentation generation</li>
+                <li><a href="https://mintlify.com/" target="_blank" rel="noopener">Mintlify</a> — Documentation platform</li>
+            </ul>
+        </article>
+
+        <nav class="guide-nav">
+            <a href="guide-04-pricing-positioning.html" class="guide-nav-link prev">
+                <div class="guide-nav-label">Previous</div>
+                <div class="guide-nav-title">Pricing & Positioning</div>
+            </a>
+            <a href="guide-06-content-marketing.html" class="guide-nav-link next">
+                <div class="guide-nav-label">Next Guide</div>
+                <div class="guide-nav-title">Content Marketing</div>
+            </a>
+        </nav>
+    </main>
+
+</body>
+</html>
