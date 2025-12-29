@@ -8,18 +8,18 @@ A comprehensive collection of actionable guides for marketing developer tools. D
 
 | Guide | Description |
 |-------|-------------|
-| [01. Website & Landing Pages](01-website-landing-pages.md) | Hero sections, CTAs, social proof, pricing page design |
-| [02. Hacker News & Product Hunt](02-hacker-news-product-hunt.md) | Launch strategies, timing, post formats, community engagement |
-| [03. Paid Advertising](03-paid-advertising.md) | Reddit ads, LinkedIn, YouTube influencers, Ethical Ads |
-| [04. Pricing & Positioning](04-pricing-positioning.md) | Pricing models, anchoring, competitive positioning |
-| [05. Documentation](05-documentation.md) | Docs that convert, quickstarts, API references |
-| [06. Content Marketing](06-content-marketing.md) | Blog strategy, SEO, technical writing, distribution |
-| [07. Events & Conferences](07-events-conferences.md) | Booth strategy, swag, talks, guerrilla tactics |
-| [08. Community Building](08-community-building.md) | Discord/Slack communities, engagement, scaling |
-| [09. Sales & GTM](09-sales-gtm.md) | PLG, product-led sales, enterprise motion |
-| [10. Open Source & GitHub](10-open-source-github.md) | Stars growth, README strategy, OSS monetization |
-| [11. Social Media](11-social-media.md) | Twitter/X, LinkedIn, founder-led social |
-| [12. Metrics & Attribution](12-metrics-attribution.md) | KPIs, self-reported attribution, ROI measurement |
+| [01. Website & Landing Pages](guides/01-website-landing-pages.md) | Hero sections, CTAs, social proof, pricing page design |
+| [02. Hacker News & Product Hunt](guides/02-hacker-news-product-hunt.md) | Launch strategies, timing, post formats, community engagement |
+| [03. Paid Advertising](guides/03-paid-advertising.md) | Reddit ads, LinkedIn, YouTube influencers, Ethical Ads |
+| [04. Pricing & Positioning](guides/04-pricing-positioning.md) | Pricing models, anchoring, competitive positioning |
+| [05. Documentation](guides/05-documentation.md) | Docs that convert, quickstarts, API references |
+| [06. Content Marketing](guides/06-content-marketing.md) | Blog strategy, SEO, technical writing, distribution |
+| [07. Events & Conferences](guides/07-events-conferences.md) | Booth strategy, swag, talks, guerrilla tactics |
+| [08. Community Building](guides/08-community-building.md) | Discord/Slack communities, engagement, scaling |
+| [09. Sales & GTM](guides/09-sales-gtm.md) | PLG, product-led sales, enterprise motion |
+| [10. Open Source & GitHub](guides/10-open-source-github.md) | Stars growth, README strategy, OSS monetization |
+| [11. Social Media](guides/11-social-media.md) | Twitter/X, LinkedIn, founder-led social |
+| [12. Metrics & Attribution](guides/12-metrics-attribution.md) | KPIs, self-reported attribution, ROI measurement |
 
 ## Who This Is For
 
