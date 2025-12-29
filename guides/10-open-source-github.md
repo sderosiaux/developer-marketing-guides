@@ -29,8 +29,6 @@ A comprehensive guide to growing open source projects and leveraging GitHub for 
 
 ## Part 2: Getting Your First 1000 Stars
 
-![10 First 1000 Stars Roadmap](images/10-first-1000-stars-roadmap.png)
-
 ### Prerequisites: Repo Health
 
 Before marketing, ensure:
@@ -81,8 +79,6 @@ Kick-off sources:
 ---
 
 ## Part 3: The GitHub PR Growth Loop
-
-![10 Github Growth Loop](images/10-github-growth-loop.png)
 
 ### How It Works (Snyk Example)
 

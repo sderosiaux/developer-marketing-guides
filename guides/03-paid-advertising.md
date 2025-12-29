@@ -37,8 +37,6 @@ Developers are different. Traditional B2B tactics often fail.
 
 ## Part 2: Channel Selection Framework
 
-![03 Channel Selection Matrix](images/03-channel-selection-matrix.png)
-
 ### How to Evaluate a Channel
 
 Ask three questions (Adam Grenier framework):
@@ -281,8 +279,6 @@ Similar to Ethical Ads but different network of sites.
 ---
 
 ## Part 8: Retargeting
-
-![03 Retargeting Funnel](images/03-retargeting-funnel.png)
 
 ### Retargeting for Developers
 

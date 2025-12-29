@@ -6,8 +6,6 @@ A comprehensive guide to launching developer tools on HN and Product Hunt. From 
 
 ## Part 1: Hacker News Fundamentals
 
-![02 Hn Post Anatomy](images/02-hn-post-anatomy.png)
-
 ### Understanding Hacker News
 
 HN is not a marketing channel — it's a community of builders who share and discuss interesting things. Your content needs to genuinely interest this audience.
@@ -173,8 +171,6 @@ Then bring a refined version to HN.
 ---
 
 ## Part 6: Product Hunt Launch
-
-![02 Launch Timeline](images/02-launch-timeline.png)
 
 ### The PH Playbook (Matteo Tittarelli)
 
