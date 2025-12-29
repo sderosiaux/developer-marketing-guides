@@ -6,6 +6,8 @@ A comprehensive guide to developer-focused sales motions. From PLG fundamentals 
 
 ## Part 1: Developer GTM Fundamentals
 
+![09 Gtm Approaches](images/09-gtm-approaches.png)
+
 ### The Core Truth
 
 Developers don't want to talk to you.
@@ -100,6 +102,8 @@ You'll lose 50-70% of free trials. Those aren't the ones to engage.
 ---
 
 ## Part 4: Sales Signals
+
+![09 Sales Signals Dashboard](images/09-sales-signals-dashboard.png)
 
 ### Big List of Sales Signals
 

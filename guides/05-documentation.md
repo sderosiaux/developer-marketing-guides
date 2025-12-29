@@ -28,6 +28,8 @@ Docs are the second circle. Get them right before investing heavily in content a
 
 ## Part 2: Docs Fundamentals (From Ex-Stripe Head of Docs)
 
+![05 Docs Radiating Circles](images/05-docs-radiating-circles.png)
+
 ### First Impressions Matter
 
 **What developers see first:**
@@ -174,6 +176,8 @@ Use this to:
 ---
 
 ## Part 7: Docs Content Types
+
+![05 Docs Content Types](images/05-docs-content-types.png)
 
 ### The Quickstart
 

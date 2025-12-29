@@ -27,6 +27,8 @@ Accept that not everything is measurable. But still:
 
 ## Part 2: Attribution Fundamentals
 
+![12 Attribution Mix](images/12-attribution-mix.png)
+
 ### The Developer Attribution Challenge
 
 Developers are hard to attribute:
@@ -80,6 +82,8 @@ See the real impact (works best for ads).
 ---
 
 ## Part 4: Developer Journey Metrics
+
+![12 Developer Journey Metrics](images/12-developer-journey-metrics.png)
 
 ### Journey Stages
 

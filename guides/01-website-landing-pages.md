@@ -32,6 +32,8 @@ Examples: Vercel Workflows, DagsHub, modern Supabase
 
 ## Level 2: Header & Value Proposition
 
+![01 Homepage Architecture](images/01-homepage-architecture.png)
+
 ### The Anatomy of a Great Dev Tool Header
 
 A strong header needs these components:
@@ -127,6 +129,8 @@ The dance of showing code without overwhelming:
 ---
 
 ## Level 4: CTAs & Conversion
+
+![01 Developer Trust Ladder](images/01-developer-trust-ladder.png)
 
 ### CTA Philosophy for Developers
 

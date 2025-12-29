@@ -37,6 +37,8 @@ Write for "one developer." Share a story that makes it obvious this article is w
 
 ## Part 2: Content Types That Work
 
+![06 Content Maturity Pyramid](images/06-content-maturity-pyramid.png)
+
 ### The Debugging Story
 
 One of the best content types for senior developers.
@@ -140,6 +142,8 @@ Content is the third circle. Ensure product and docs are solid before investing 
 ---
 
 ## Part 4: Content Distribution
+
+![06 Content Repurposing Flow](images/06-content-repurposing-flow.png)
 
 ### SEO for Developers
 

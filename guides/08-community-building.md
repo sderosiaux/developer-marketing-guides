@@ -71,6 +71,8 @@ Start by inviting selected people through LinkedIn/Twitter.
 
 ## Part 3: Growing Engagement
 
+![08 Community Flywheel](images/08-community-flywheel.png)
+
 ### Don't Let Questions Go Unanswered
 
 This is critical. An unanswered question = dead community signal.
@@ -144,6 +146,8 @@ When you know members' interests:
 ---
 
 ## Part 5: Scaling Community
+
+![08 Community Scaling Stages](images/08-community-scaling-stages.png)
 
 ### From Founder-Led to Team-Led
 

@@ -6,6 +6,8 @@ A comprehensive guide to positioning your dev tool and creating pricing that con
 
 ## Part 1: Positioning Fundamentals
 
+![04 Positioning Stack](images/04-positioning-stack.png)
+
 ### Why Positioning Matters More for Dev Tools
 
 Developers are skeptical. They've seen too many tools oversell and underdeliver.
@@ -155,6 +157,8 @@ From Kite post-mortem: "Individual developers do not pay for tools."
 ---
 
 ## Part 5: Pricing Models for Dev Tools
+
+![04 Gtm Framework](images/04-gtm-framework.png)
 
 ### The 1-2-3 GTM Framework (Adam Gross)
 

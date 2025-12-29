@@ -6,6 +6,8 @@ A comprehensive guide to social media marketing for developers. From Twitter str
 
 ## Part 1: Social Media Philosophy
 
+![11 Platform Selection Guide](images/11-platform-selection-guide.png)
+
 ### What Works for Developers
 
 Developers respond to:
@@ -26,6 +28,8 @@ Developers respond to:
 ---
 
 ## Part 2: Twitter/X Strategy
+
+![11 Tweet Anatomy](images/11-tweet-anatomy.png)
 
 ### Learning from Supabase
 
