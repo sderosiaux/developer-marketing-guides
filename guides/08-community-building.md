@@ -6,6 +6,9 @@ A comprehensive guide to building and nurturing developer communities. From star
 
 ## Part 1: Community Fundamentals
 
+![08 Community Flywheel](images/08-community-flywheel.png)
+
+
 ### Why Community Matters
 
 Community is the outer ring of developer experience:

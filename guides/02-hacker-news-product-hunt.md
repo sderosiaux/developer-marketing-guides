@@ -26,6 +26,9 @@ HN is not a marketing channel — it's a community of builders who share and dis
 
 ## Part 2: The HN Launch Formula
 
+![02 Launch Timeline](images/02-launch-timeline.png)
+
+
 ### The Tailscale Framework
 
 Tailscale consistently hits the front page. Here's their pattern:

@@ -6,6 +6,9 @@ A comprehensive guide to creating developer-focused websites that convert. From 
 
 ## Level 1: Foundations
 
+![01 Developer Trust Ladder](images/01-developer-trust-ladder.png)
+
+
 ### The Core Truth About Developer Websites
 
 Developers want to understand what your tool does, when it's good for them, and when it isn't. They know there's no silver bullet and there are tradeoffs. **Saying where your tool is NOT a great fit gives comfort and safety to devs.**

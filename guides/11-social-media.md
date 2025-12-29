@@ -6,6 +6,9 @@ A comprehensive guide to social media marketing for developers. From Twitter str
 
 ## Part 1: Social Media Philosophy
 
+![11 Platform Selection Guide](images/11-platform-selection-guide.png)
+
+
 ### What Works for Developers
 
 Developers respond to:

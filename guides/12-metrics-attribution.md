@@ -27,6 +27,9 @@ Accept that not everything is measurable. But still:
 
 ## Part 2: Attribution Fundamentals
 
+![12 Attribution Mix](images/12-attribution-mix.png)
+
+
 ### The Developer Attribution Challenge
 
 Developers are hard to attribute:

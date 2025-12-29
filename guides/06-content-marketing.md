@@ -141,6 +141,9 @@ Content is the third circle. Ensure product and docs are solid before investing 
 
 ## Part 4: Content Distribution
 
+![06 Content Repurposing Flow](images/06-content-repurposing-flow.png)
+
+
 ### SEO for Developers
 
 **Cronitor case study:** Created a page for every "run cron job + [time]" query.

@@ -6,6 +6,9 @@ A comprehensive guide to creating documentation that converts. Learnings from St
 
 ## Part 1: Docs Philosophy
 
+![05 Docs Radiating Circles](images/05-docs-radiating-circles.png)
+
+
 ### Why Docs Matter More Than You Think
 
 Docs are not just support content. They are:

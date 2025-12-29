@@ -27,6 +27,9 @@ In developer marketing, events provide:
 
 ## Part 2: Conference Booth Strategy
 
+![07 Conference Timeline](images/07-conference-timeline.png)
+
+
 ### Booth That Works
 
 **Key elements:**

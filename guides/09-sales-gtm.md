@@ -6,6 +6,9 @@ A comprehensive guide to developer-focused sales motions. From PLG fundamentals 
 
 ## Part 1: Developer GTM Fundamentals
 
+![09 Gtm Approaches](images/09-gtm-approaches.png)
+
+
 ### The Core Truth
 
 Developers don't want to talk to you.

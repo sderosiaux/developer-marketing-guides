@@ -6,6 +6,9 @@ A comprehensive guide to positioning your dev tool and creating pricing that con
 
 ## Part 1: Positioning Fundamentals
 
+![04 Positioning Stack](images/04-positioning-stack.png)
+
+
 ### Why Positioning Matters More for Dev Tools
 
 Developers are skeptical. They've seen too many tools oversell and underdeliver.
